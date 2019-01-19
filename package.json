@@ -13,7 +13,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "postbuild": "rimraf build/**/*.map",
-    "heroku-postbuild": "rimraf build/**/*.map",
+    "heroku-postbuild": "rimraf build/**/*.map && rimraf build/app",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
